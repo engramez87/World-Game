@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="com.crashlytics.android.build_id">1b449583-ff05-4b4a-a5db-49d8db8bad94</string>
+    <string name="app_version">Version 2.5</string>
+    <string name="app_version_no">2.5</string>
+    <string name="app_name">Country Learn</string>
+    <string name="mm_classic_mode">Training</string>
+    <string name="mm_challenge_mode">Challenge</string>
+    <string name="mm_score_board">Scoreboard</string>
+    <string name="mm_country_list">Country List</string>
+    <string name="mm_about">About</string>
+    <string name="main_menu_rating_msg">If you enjoy playing World Citizen, would you take the time to rate it? All support is appreciated.</string>
+    <string name="cl_about_popup_text">Would you like to visit Wikipedia and learn more about this country?</string>
+    <string name="gs_share_title">World Citizen - Country and Flag</string>
+    <string name="gs_share_via">Share via</string>
+    <string name="gs_share_body">Become a world citizen - learn countries, flags and capitals while you play!!! http://market.android.com/search?q=pname:lammar.flags</string>
+    <string name="challenge_new_high_score">New High Score!</string>
+    <string name="challenge_game_modes">Game Modes:</string>
+    <string name="challenge_score_multiplier">Score Multiplier:</string>
+    <string name="challenge_play">Play</string>
+    <string name="classic_level_complete">Level Complete!</string>
+    <string name="classic_new_record">New Record!</string>
+    <string name="classic_questions">Questions:</string>
+    <string name="classic_previous_question">Previous question:</string>
+    <string name="total_correct_answers">Total correct:</string>
+    <string name="total_incorrect_answers">Total incorrect:</string>
+    <string name="total_accuracy">Total accuracy:</string>
+    <string name="game_country">Country</string>
+    <string name="game_capital">Capital</string>
+    <string name="game_flag">Flag</string>
+    <string name="game_difficulty">Difficulty:</string>
+    <string name="global_new_game">New Game</string>
+    <string name="global_level">Level:</string>
+    <string name="global_yes">Yes</string>
+    <string name="global_no">No</string>
+    <string name="level_all">All</string>
+    <string name="level_easy">Easy</string>
+    <string name="level_medium">Medium</string>
+    <string name="level_hard">Hard</string>
+    <string name="support_developed_by">Developed by lammar</string>
+    <string name="support_info">"If you have any problems with running this application or you would like to share your comments with the developer please click on the email below: "</string>
+    <string name="support_email">lammar1987@gmail.com</string>
+    <string name="support_comments">Any comments, suggestions or bug reports are most appreciated.</string>
+    <string name="new_challenge_select_at_least_one">Select at least one game mode</string>
+    <string name="scoreboard_loading_stats">Loading game stats...</string>
+    <string name="country_index_capital">Capital:</string>
+    <string name="country_index_language">Language:</string>
+    <string name="account_enter_name">Enter your name</string>
+    <string name="account_too_many_characters">Too many characters</string>
+    <string name="account_username_requirement">Name can only contain letters and numbers</string>
+    <string name="account_new_user">New user</string>
+    <string name="statistics_loading_error">An error has occured while loading the scores.</string>
+    <string name="game_over">Game Over</string>
+    <string name="correct_answers">Correct:</string>
+    <string name="incorrect_answers">Incorrect:</string>
+    <string name="accuracy_bonus">Accuracy Bonus:</string>
+    <string name="level_bonus">Level Bonus:</string>
+    <string name="mode_bonus">Mode Bonus:</string>
+    <string name="high_score">Best Score:</string>
+    <string name="total_score">Total Score</string>
+    <string name="play_again">Retry</string>
+    <string name="choose_game">Select Game</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="save">Save</string>
+    <string name="total_time_played">Total time played:</string>
+    <string name="challenge">Challenge:</string>
+    <string name="classic">Classic:</string>
+    <string name="dialog_close">Close</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings_sound">Sound:</string>
+    <string name="settings_language">Language:</string>
+    <string name="statistics_leaderboard">Leaderboard</string>
+    <string name="statistics_local">Stats</string>
+    <string name="review_answers">Review answers</string>
+    <string name="account_your_name">Your name</string>
+    <string name="game_search">Search...</string>
+    <string name="loading_ad">Advertisement</string>
+    <string name="mm_upgrade">Remove Ads</string>
+    <string name="title_activity_country_list">ddd</string>
+
+    <string-array name="title">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item> Andorra</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>antilles</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item> Bahamas</item>
+        <item>   Bahrain </item>
+        <item>  Bangladesh </item>
+        <item> Barbados </item>
+        <item> Belarus  </item>
+        <item>    Belgium  </item>
+        <item>  Belize    </item>
+        <item>  Benin   </item>
+
+    `   <item>Bhutan</item>
+
+        <item>Bolivia</item>
+
+        <item>Botswana</item>
+
+        <item> Bosnia and Herzegovina</item>
+
+        <item>Brazil</item>
+
+        <item>Brunei</item>
+
+        <item>Bulgaria</item>
+
+        <item>Burkina Faso</item>
+
+        <item>Burundi</item>
+        <item>Cambodia</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.company.ramez.worldgame.MainActivity">
+    
+    <ImageView
+        android:id="@+id/widget1"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_margin="5dp"
+        
+        android:src="@drawable/mm_header_text"
+
+        android:scaleType="fitXY"
+
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/widget3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/widget1" >
+        
+        <Button
+            android:id="@+id/main_menu_challenge_mode_btn"
+            android:drawableLeft="@drawable/mm_challange_icon"
+            android:drawablePadding="5dp"
+            style="@style/MainMenuButton"
+            android:text="@string/mm_challenge_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnMainMenuBtnClicked"
+             />
+        <Button
+            android:id="@+id/main_menu_country_list_btn"
+
+            android:drawablePadding="5dp"
+            style="@style/MainMenuButton"
+            android:text="@string/mm_country_list"
+            android:drawableLeft="@drawable/icon_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnCountryMenuBtnClicked"
+            />
+
+        <Button
+            android:id="@+id/main_menu_about_btn"
+
+            android:drawablePadding="5dp"
+            style="@style/MainMenuButton"
+            android:text="@string/mm_about"
+            android:drawableLeft="@drawable/icon_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnMainMenuBtnClicked"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

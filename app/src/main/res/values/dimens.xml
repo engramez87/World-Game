@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_menu_button_padding_top">6.0dip</dimen>
+    <dimen name="main_menu_button_padding_bottom">6.0dip</dimen>
+    <dimen name="flag_to_name_flag_width">120.0dip</dimen>
+    <dimen name="flag_to_name_flag_height">79.0dip</dimen>
+    <dimen name="flag_to_name_flag_margin">10.0dip</dimen>
+    <dimen name="flag_to_name_button_text_size">14.0sp</dimen>
+    <dimen name="flag_to_name_button_margin_top">2.0dip</dimen>
+    <dimen name="flag_to_name_button_padding_top">6.0dip</dimen>
+    <dimen name="flag_to_name_button_padding_bottom">6.0dip</dimen>
+    <dimen name="classic_mode_status_holder_padding">4.0dip</dimen>
+    <dimen name="classic_mode_status_text_size">14.0sp</dimen>
+    <dimen name="game_summary_text_size">60sp</dimen>
+    <dimen name="new_challenge_difficulty_margin_top">10dp</dimen>
+    <dimen name="new_classic_mode_button_margin">6.0dip</dimen>
+    <dimen name="classic_mode_previous_text_size">12.0sp</dimen>
+    <dimen name="classic_mode_previous_img_width">65.0dip</dimen>
+    <dimen name="classic_mode_previous_img_height">43.0dip</dimen>
+    <dimen name="classic_mode_previous_lable_text_size">12.0sp</dimen>
+    <dimen name="classic_mode_previous_holder_padding">5.0dip</dimen>
+    <dimen name="classic_mode_previous_holder_height">60.0dip</dimen>
+</resources>

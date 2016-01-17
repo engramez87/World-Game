@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/plain_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/widget1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header_bg2"
+        android:gravity="center"
+        android:paddingBottom="5dp">
+
+        <TextView
+            style="@style/white_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mm_challenge_mode"
+            android:textColor="@color/text_ecru"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/widget6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/widget3"
+            style="@style/green_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/challenge_game_modes" />
+
+        <CheckBox
+            android:id="@+id/new_challenge_country_to_flag"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget3"
+            android:onClick="OnGameModeSelectedListener"
+            android:text="Country &amp; Flag"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/new_challenge_capital_to_flag"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget3"
+            android:layout_toRightOf="@id/new_challenge_country_to_flag"
+            android:onClick="OnGameModeSelectedListener"
+            android:text="Capital &amp; flag"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/new_challenge_country_to_capital"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_challenge_country_to_flag"
+            android:layout_centerInParent="true"
+            android:onClick="OnGameModeSelectedListener"
+            android:text="country &amp; capital"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/widget2"
+        style="@style/green_text_lable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget6"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/game_difficulty" />
+
+    <LinearLayout
+
+        android:id="@+id/difficulty_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/new_game_difficulty_easy"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnGameLevelSelectedListener"
+            android:text="@string/level_easy"
+            android:textColor="#000000" />
+
+        <CheckBox
+
+            android:id="@+id/new_game_difficulty_medium"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnGameLevelSelectedListener"
+            android:text="@string/level_medium"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/new_game_difficulty_hard"
+            style="@style/simple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnGameLevelSelectedListener"
+            android:text="@string/level_hard"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/widget4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/difficulty_holder"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/score1"
+            style="@style/green_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="4dp"
+            android:text="@string/challenge_score_multiplier"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/new_challenge_score_multiplier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            android:gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:textSize="24sp" />
+
+
+
+    <Button
+        android:id="@+id/score"
+        style="@style/MainMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:onClick="OnButtonClickedListener"
+        android:padding="5dp"
+        android:text="@string/challenge_play"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

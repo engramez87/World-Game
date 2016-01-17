@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_bg"
+    android:orientation="vertical"
+    tools:context="ramez.company.com.worldgame.activity_challenge_mode">
+
+    <RelativeLayout
+        android:id="@+id/challenge_mode_timmer_holder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff000000"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/challenge_mode_timmer_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:scaleType="fitXY"
+
+            android:src="@color/progress_bar_blue" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/game_progress_overlay" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+
+        android:id="@+id/widget10"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@id/challenge_mode_timmer_holder"
+        android:scaleType="fitXY"
+        android:src="@drawable/game_top_shadow" />
+
+
+    <ImageView
+        android:id="@+id/challenge_mode_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/countdown_three" />
+
+    <LinearLayout
+        android:id="@+id/chekeplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/challenge_mode_timmer_holder"
+
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/challenge_mode_countdown">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="48dp"
+            android:text="AFAGANSTAN"
+            android:textSize="24sp"/>
+       <LinearLayout
+           android:gravity="center"
+
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_margin="6dp"
+           android:layout_weight="1"
+           android:orientation="horizontal">
+
+           <ImageButton
+                android:id="@+id/iwa"
+                android:scaleType="fitXY"
+               android:layout_width="200dp"
+               android:layout_height="130dp"
+               android:layout_marginRight="12dp"
+               android:background="#ff000000"
+               android:padding="10dp"
+               android:src="@drawable/afghanistan"
+               android:onClick="iwant"
+               />
+           <ImageButton
+               android:scaleType="fitXY"
+               android:layout_width="200dp"
+               android:layout_height="130dp"
+               android:background="#ff000000"
+               android:padding="10dp"
+               android:src="@drawable/afghanistan"
+               />
+       </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:scaleType="fitXY"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="12dp"
+                android:background="#ff000000"
+                android:padding="10dp"
+                android:src="@drawable/afghanistan"
+                />
+            <ImageButton
+                android:scaleType="fitXY"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:background="#ff000000"
+                android:padding="10dp"
+                android:src="@drawable/afghanistan"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:scaleType="fitXY"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="12dp"
+                android:background="#ff000000"
+                android:padding="10dp"
+                android:src="@drawable/afghanistan"
+                />
+            <ImageButton
+                android:scaleType="fitXY"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:background="#ff000000"
+                android:padding="10dp"
+                android:src="@drawable/afghanistan"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/challenge_mode_footer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/game_bottom_shadow" />
+
+        <TextView
+            android:id="@+id/challenge_mode_game_name"
+            style="@style/white_text_lable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/game_green_bar"
+            android:gravity="center"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dp"
+            android:textSize="140sp" />
+    </LinearLayout>
+
+</RelativeLayout>

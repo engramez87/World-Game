@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/summary_screen_title"
+        style="@style/white_text_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/summary_score_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/correct_answers"
+                android:textColor="@color/text_green"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_correct_answers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/incorrect_answers"
+                android:textColor="@color/text_green"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_incorrect_answers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/accuracy_bonus"
+                android:textColor="@color/text_green"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_accuracy_bonus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="@string/level_bonus"
+                android:textColor="@color/text_green"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_level_bonus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25.0dip"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="@string/mode_bonus"
+                android:textColor="@color/text_green"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_mode_bonus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25.0dip"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="@string/high_score"
+                android:textColor="@color/text_green"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/summary_screen_high_score"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25.0dip"
+                android:layout_weight="1.0"
+                android:textColor="@color/text_white"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/summary_screen_total_score"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffe400"
+            android:textSize="@dimen/game_summary_text_size" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/total_score"
+            android:textColor="#ffffe400"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/summary_screen_retry_btn"
+            style="@style/GenericButton"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginRight="3.0dip"
+            android:layout_weight="1.0"
+            android:onClick="OnSummaryScreenBtnClicked"
+            android:text="@string/play_again"
+            android:textSize="12.0sp" />
+
+        <Button
+            android:id="@+id/summary_screen_leaderboard_btn"
+            style="@style/GenericButton"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_weight="1.0"
+            android:onClick="OnSummaryScreenBtnClicked"
+            android:text="@string/leaderboard"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/summary_screen_review_btn"
+        style="@style/GenericButton"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3.0dip"
+        android:layout_marginRight="3.0dip"
+        android:layout_weight="1.0"
+        android:onClick="OnSummaryScreenBtnClicked"
+        android:text="@string/review_answers"
+        android:textSize="12.0sp"
+        android:visibility="gone" />
+</LinearLayout>
